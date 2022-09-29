@@ -29,6 +29,21 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
+								<extensions>true</extensions>
+<configurations>
+<clodhubDeployment>
+<url></url>
+<muleVersion>4.4.0</muleversion>
+<username>sepCE</username>
+<password>Th291998@S2553</password>
+<environment>Sandbox</environment>
+<applicationName>demoSep</applicationNmae>
+<businessGroup>infosys ltd</businessGroup>
+<workerType>micro</workerType>
+<workers>1</workers>
+<objectStoreV2>true</objectStore2>
+</cloudhubDeployment>
+</configurations>
 			</plugin>
 		</plugins>
 	</build>
